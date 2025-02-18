@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fondo negro */
+}
+
+/* Fondo con un GIF */
+body {
+    background-image: url('fondo.gif'); /* Segundo GIF como fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff; /* Color del texto blanco */
+}
+
+/* Estilo para los GIFs */
+.gif-container {
+    margin-top: 20px;
+}
+
+.gif-container img {
+    width: 500px; /* Ajusta el tamaño de los GIFs según sea necesario */
+    height: auto;
+}
+
